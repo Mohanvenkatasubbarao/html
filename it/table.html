@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+        table,tr,th,td{
+            border: 2px solid gold;
+            border-collapse: collapse;
+        }
+        th{
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-style: italic;
+            background-color: blueviolet;
+            padding: 20px;
+            color: brown;
+        }
+        table{
+            width: 50%;
+        }
+        th :hover{
+            color: aquamarine;
+            background-color: yellow;
+        }
+        td{
+            font-size: 40px;
+            font-weight: bold;
+            text-align: center;
+        }
+        tr:nth-child(odd):hover{
+            background-color: blue;
+            color: darkgreen;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>student information: </caption>
+        <tr>
+            <th>Sno</th>
+            <th>Name</th>
+            <th>Branch</th>
+        </tr>
+            <tr>
+                <td>1</td><td>Mohan</td><td>It</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Siddu</td>
+                <td>Cse</td>
+            </tr>
+            <tr>
+                <td>3</td><td>Prasad</td><td>Ece</td>
+            </tr>
+            <tr>
+                <td>4</td><td>Raju</td> <td>Iot</td>
+    </table>
+</body>
+</html>
